@@ -1,50 +1,35 @@
-# React + TypeScript + Vite
+# LED Digital Clock ⏰
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![LED Digital Clock UI](./public/led-digital-clock.png)
 
-Currently, two official plugins are available:
+A sleek and modern **LED Digital Clock** built using **React (TypeScript) + Tailwind CSS**. This project simulates a classic 7-segment digital clock with a futuristic dark mode UI. It displays **time, date, and day of the week** dynamically.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+✅ Real-time digital clock display (HH:MM:SS AM/PM)  
+✅ Shows the current **day of the week**  
+✅ Displays **date, month, and year**  
+✅ Uses **7-segment LED style** for an authentic look  
+✅ Built with **React (TypeScript) + Tailwind CSS**  
+✅ Fully **responsive** for various screen sizes  
+✅ Smooth animations and modern design
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🛠️ Tech Stack
 
-- Configure the top-level `parserOptions` property like this:
+- **React.js** (TypeScript) - Component-based UI
+- **Tailwind CSS** - Fast and modern styling
+- **JavaScript Date API** - Fetches real-time data
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🤝 Contributing
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+We welcome contributions! Check out the [CONTRIBUTING.md](CONTRIBUTING.md) file for details.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 📜 License
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+This project is licensed under the MIT License. Feel free to use and modify it.
+
+## ⭐ Show Your Support
+
+If you like this project, please ⭐ star the repo and share it! 🚀
+
+## 🔗 Follow me on GitHub: [Github Profile](https://github.com/sshuvoo)
